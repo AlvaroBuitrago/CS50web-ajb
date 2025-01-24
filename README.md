@@ -5,7 +5,7 @@ This project is a practice of HTML and CSS aimed at imitating the style and basi
 ## Project Structure
 
 - `index.html`: Main search page.
-- `image_search.html`: Image search page.
+- `search_img.html`: Image search page.
 - `advanced_search.html`: Advanced search page.
 
 ## Requirements
