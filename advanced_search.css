@@ -1,0 +1,142 @@
+/* Set the default font and background color pseudoclass root */
+:root {
+    font-family: "Google Sans", sans-serif;
+    text-align: left;
+    background-color: #202124;
+    color: #e8eaed;
+}
+
+* {
+    /* Consistent box-sizing for all elements */
+    box-sizing: border-box;
+}
+
+body {
+    /* Set the maximum width for the body */
+    max-width: 750px;
+}
+
+header {
+    /* Align header content to the right */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#doogle {
+    /* Style for the "Coogle" label */
+    font-size: 1.4em;
+    font-weight: bold;
+    border: solid 0px;
+    margin: 10px auto auto 0px;
+    padding: 30px;
+}
+
+h2 {
+    /* Style for the "Advance Search" heading */
+    font-size: 1.2em;
+    color: #f4b400;
+    margin: 20px auto auto 50px;
+}
+
+.logo-container {
+    /* Ensure the logo container is displayed as a block */
+    position: relative;
+    display: block;
+}
+
+legend {
+    /* Style for the legend text */
+    font-size: 1.1em;
+}
+
+hr {
+    /* Style for the horizontal line */
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+form {
+    /* Style for the form container */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align input boxes to the left */
+    gap: 10px;
+    /* Space between input boxes */
+}
+
+.formB {
+    /* Style for each form group */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    /* Style for the labels */
+    width: 220px;
+    margin: auto auto auto 40px;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+input {
+    /* Style for the input fields */
+    width: 475px;
+    /* Width of the input boxes */
+    padding: 5px;
+    /* Internal padding of the input boxes */
+    margin: 10px 10px;
+    border-radius: 0px;
+    border: solid 1px grey;
+    background-color: #202124;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    /* Style for the buttons */
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 36px;
+    border: solid 1px #393939;
+    border-radius: 4px;
+    color: #f8f9fa;
+    background-color: #393939;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    /* Style for buttons on hover */
+    border: solid 1px lightgrey;
+}
+
+#buttonSearchContainer {
+    /* Style for the button container */
+    display: flex;
+    width: 100%;
+    /* Ensure the container takes the full width */
+    justify-content: flex-end;
+}
+
+#buttonSearch {
+    /* Style for the search button */
+    background-color: #4285f4;
+    margin: auto 0px;
+    border: solid 1px #4285f4;
+    color: black;
+}
+
+#buttonSearch:hover {
+    /* Style for the search button on hover */
+    border: solid 1px #202124;
+    margin: auto 0px;
+    cursor: pointer;
+    background-color: #5A9DFB;
+}

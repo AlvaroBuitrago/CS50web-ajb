@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+        <title>My search page (Álvaro J Buitrago)</title>
+        <link rel="stylesheet" href="search_img.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="googlAdv" onclick="window.location.href='index.html'">Back to Google Search</button>
+        </header>
+        <form action="https://www.google.com/search" method="get">
+            <div class="logo-container">
+                <label for="google" id="doogle">Coogle <span>Images</span></label><br>
+            </div>
+            <!-- name="q" attribute that assigns a name to the input field. The value of this attribute will be sent to the server when the form is submitted. In this case, q is the name of the field, which is commonly used by Google for search queries -->
+            <input type="text" name="q" id="google" placeholder="Enter your words"><br>
+            <!-- name="tbm" means "to be matched" value="isch" (images search) necesary to search images -->
+            <input type="hidden" name="tbm" value="isch">
+            <button type="submit" id="buttonSearch" class="search-input">Search Images with Google</button>
+            <button type="submit" id="buttonSearchLucky">I'm Feeling Lucky</button>
+        </form>
+    </body>
+
+</html>

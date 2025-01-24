@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+        <title>My search page (Álvaro J Buitrago)</title>
+        <link rel="stylesheet" href="advanced_search.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="googlAdv" onclick="window.location.href='index.html'">Back to Google Search</button>
+        </header>
+        <div class="logo-container">
+            <label for="google" id="doogle">Coogle</label>
+            <h2>Advance Search</h2>
+            <hr><br>
+        </div>
+        <form action="https://www.google.com/search" method="get">
+            <legend>Find pages with…</legend>
+            <div class="formB">
+                <label for="allThis">all these words:</label>
+                <input type="text" id="allThis" name="as_q"><br>
+                <!-- name="as_q": Finds pages with all these words -->
+            </div>
+            <div class="formB">
+                <label for="allWhith">this exact word or phrase:</label>
+                <input type="text" id="allWhith" name="as_epq"><br>
+                <!-- name="as_epq": Finds pages with this exact word or phrase -->
+            </div>
+            <div class="formB">
+                <label for="anyOf">any of these words:</label>
+                <input type="text" id="anyOf" name="as_oq"><br>
+                <!-- name="as_oq": Finds pages with any of these words -->
+            </div>
+            <div class="formB">
+                <label for="noneOf">none of these words:</label>
+                <input type="text" id="noneOf" name="as_eq"><br>
+                <!-- name="as_eq": Finds pages without these words -->
+            </div>
+            <div id="buttonSearchContainer">
+                <button type="submit" id="buttonSearch" class="search-input">Advanced Search</button>
+            </div>
+        </form>
+    </body>
+
+</html>

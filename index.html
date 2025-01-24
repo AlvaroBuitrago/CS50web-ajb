@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+        <title>My search page (Álvaro J Buitrago)</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="googlAdv" onclick="window.location.href='search_img.html'">Google Image Search</button>
+            <button class="googlAdv" onclick="window.location.href='advanced_search.html'">Google Advanced Search</button>
+        </header>
+        <form action="https://www.google.com/search" method="get">
+            <label for="google" id="doogle">Coogle</label><br>
+            <input type="text" name="q" id="google" placeholder="Enter your words"><br>
+            <button type="submit" name="q" id="buttonSearch" class="search-input">Search with Google</button>
+            <button type="submit" name="btnI" id="buttonSearchLucky">I'm Feeling Lucky</button>
+        </form>
+    </body>
+
+</html>
