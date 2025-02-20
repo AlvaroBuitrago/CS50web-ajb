@@ -5,7 +5,8 @@
     background-color: #202124;
     color: #e8eaed;
 }
-
+body {
+    font-family: "Google Sans", sans-serif;
 * {
     /* Consistent box-sizing for all elements */
     box-sizing: border-box;
