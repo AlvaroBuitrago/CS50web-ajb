@@ -5,6 +5,9 @@
       background-color: #202124;
       color: #e8eaed;
   }
+  body {
+    font-family: "Google Sans", sans-serif;
+  }
 
   /* Ensure consistent box-sizing for all */
   * {
